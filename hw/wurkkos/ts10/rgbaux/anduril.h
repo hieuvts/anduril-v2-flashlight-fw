@@ -86,3 +86,9 @@
 // enable factory reset on 13H without loosening tailcap (required)
 #define USE_SOFT_FACTORY_RESET
 
+// Enable smooth steps / soft transitions & add Item 5 to the 10H menu
+#define USE_SMOOTH_STEPS
+#define DEFAULT_SMOOTH_STEPS_STYLE 1
+// Take 1s from current level to turbo. Just for testing
+// TODO: Change to 200ms 
+#define SMOOTH_STEPS_MS 1000
